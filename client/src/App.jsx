@@ -6,7 +6,7 @@ const App = () => {
 
   if (loading) return <div>Loading...</div>;  //Cюди підставити loader
 
-  return <div>{data}</div>;
+  return <div>This is data from server: {data}</div>;
 };
 
 export default App;
